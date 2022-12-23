@@ -1,6 +1,6 @@
 # Cancelled By Netflix
 
-A record and of all the shows Cancelled by Netflix before they ran their course.
+A record of all the shows Cancelled by Netflix before they ran their course.
 
 ## Contributing
 
