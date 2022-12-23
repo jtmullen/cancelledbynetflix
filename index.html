@@ -5,9 +5,9 @@ layout: main
 {% for post in sorted_shows %}
 <article class="post">
   {% if post.img %}
-    <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
+    <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})" href="{{post.netflix-url}}"></a>
   {% else %}
-      <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : "cancel.png"}})" href="{{post.url | prepend: site.baseurl}}"></a>
+      <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : "cancel.png"}})" href="{{post.netflix-url}}"></a>
   {% endif %}
   <div class="post-content">
     <h2 class="post-title"><a href="{{post.netflix-url}}">{{post.title}}</a></h2>
