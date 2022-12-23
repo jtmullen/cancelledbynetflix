@@ -8,17 +8,17 @@ url: "http://http://127.0.0.1:4000/" # the base hostname & protocol for your sit
 # Author Settings
 author: Cancelled by # add your name
 image: x-circle.svg # add your photo
-about: Remembering the shows that Netflix let go, but fan will always hold dear
+about: Remembering the *count* shows that Netflix let go, but fans won't forget
 social-github: jtmullen/cancelledbynetflix # add your Github handle
 
 # Build Settings
 markdown: kramdown
 plugins:
   - jekyll-sitemap
-  - jekyll-paginate
   - jemoji
 
-paginate: 1000
-paginate_path: "/page/:num"
+
+collections:
+  - shows
 
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]

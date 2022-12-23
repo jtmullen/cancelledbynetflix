@@ -1,6 +1,10 @@
 ---
 layout: default
 ---
+{% assign total_shows = 0 %}
+{% for show in site.shows %}
+	{% assign total_shows = total_shows | plus: 1 %}
+{% endfor %}
 <script src="{{site.baseurl}}/assets/js/search.js" defer></script>
 <aside class="sidebar">
   <header>
@@ -9,8 +13,8 @@ layout: default
         <a href="{{site.baseurl}}/"><img src="{{site.baseurl}}/assets/img/{% if site.image %}{{site.image}}{% endif %}" alt="{{site.title}}"></a>
       </div>
       <div class="author-name">{{site.title}}</div>
-      <p>{{site.about}}</p>
-	  <input id="search-box" type="text" placeholder="Search..">
+      <p>{{site.about | replace: "*count*", total_shows}}</p>
+	  <input id="search-box" type="text" placeholder="Search...">
     </div>
   </header> <!-- End Header -->
   <footer>

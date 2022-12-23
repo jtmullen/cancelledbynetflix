@@ -1,7 +1,8 @@
 ---
 layout: main
 ---
-{% for post in paginator.posts %}
+{% assign sorted_shows = site.shows | sort: 'date' | reverse %}
+{% for post in sorted_shows %}
 <article class="post">
   {% if post.img %}
     <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
@@ -10,11 +11,9 @@ layout: main
   {% endif %}
   <div class="post-content">
     <h2 class="post-title"><a href="{{post.netflix-url}}">{{post.title}}</a></h2>
-    <p>{{ post.content | strip_html | truncatewords: 30 }}</p>
-    <span class="post-date">Cancelled {{post.date | date: '%B %Y'}}&nbsp;&nbsp;&nbsp;—&nbsp;</span>
-    <span class="post-words">{{ post.seasons }} seasons</span>
+    <p>{{ post.content | strip_html | truncatewords: 30 }} &#x2022; <a style="font-weight:bold;text-decoration: none;" href="{{ post.source-url }}">{{ post.source-name }}</a></p>
+    <span class="post-date">Cancelled {{post.date | date: '%b %Y'}}&nbsp;&nbsp;&nbsp;—&nbsp;</span>
+    <span class="post-words">{{ post.seasons }} seasons / {{ post.episodes }} episodes</span>
   </div>
 </article>
 {% endfor %}
-
-{% include pagination.html %}
