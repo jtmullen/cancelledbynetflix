@@ -16,10 +16,11 @@ Only the "[front-matter](https://jekyllrb.com/docs/front-matter/)" YAML is used,
 
 ```yml
 ---
-title: Gentefied  # the title of the show
-date: 2022-01-01  # the date is way cancelled (yyyy-mm-dd). Often there is no precise date, just use the first of the month
-description: The Latino Drama-Comedy Genetified was not renewed for a third season. # Short description of the show and its cancellation. Keep under 30 words
-seasons: 2 # Number of seasons the show ran
+title: Gentefied  # cancelled show title
+date: 2022-01-01  # date of cancellation (yyyy-mm-dd), use the 1st of the month when only month is known
+description: The Latino Drama-Comedy Genetified was not renewed for a third season. 
+# Short description of the show and its cancellation. Keep under 30 words
+seasons: 2 # Total seasons the show ran
 episodes: 18 # Total Number of Episodes
 netflix-url: https://www.netflix.com/title/80198208  # Link to the Show On Netflix
 source-name: Wikipedia  # Source that verifies the cancellation
