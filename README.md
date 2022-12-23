@@ -1,35 +1,41 @@
-# Flexible-Jekyll is a simple and clean theme for Jekyll
+# Cancelled By Netflix
 
-![](https://github.com/artemsheludko/flexible-jekyll/blob/master/assets/img/promo-img.jpg?raw=true)
+A record and of all the shows Cancelled by Netflix before they ran their course.
 
-## Demo
+## Contributing
 
-Check the theme in action [Demo](https://artemsheludko.github.io/flexible-jekyll/)
+If you are not familiar with git you can open an issue to report a missing cancelled show. 
 
-The main page would look like this:
+To contribute to this project please create a fork, make your changes on a branch, and submit a Pull Request.
 
-![Main page preview](https://github.com/artemsheludko/flexible-jekyll/blob/master/assets/img/home-page.jpg?raw=true)
+### Adding a Cancelled Show
 
-The post page would look like this:
+To add a cancelled show you will need to create a new markdown file in the _shows/[year] folder. Where year is the year the show was cancelled. Please name the file as the name of the show with spaces replaced with dashes. 
 
-![Post page preview](https://github.com/artemsheludko/flexible-jekyll/blob/master/assets/img/post-example.jpg?raw=true)
+Only the "[front-matter](https://jekyllrb.com/docs/front-matter/)" YAML is used, no other content of the markdown file is used. All fields are required, below is an example front-matter:
 
-## Features
+```yml
+---
+title: Gentefied  # the title of the show
+date: 2022-01-01  # the date is way cancelled (yyyy-mm-dd). Often there is no precise date, just use the first of the month
+description: The Latino Drama-Comedy Genetified was not renewed for a third season. # Short description of the show and its cancellation. Keep under 30 words
+seasons: 2 # Number of seasons the show ran
+episodes: 18 # Total Number of Episodes
+netflix-url: https://www.netflix.com/title/80198208  # Link to the Show On Netflix
+source-name: Wikipedia  # Source that verifies the cancellation
+source-url: https://en.wikipedia.org/wiki/Gentefied  # Link to Source
+---
+```
 
-- [Google Fonts](https://fonts.google.com/)
-- [Font Awesome](http://fontawesome.io/)
-- [Disqus](https://disqus.com/)
-- [Analytics](https://analytics.google.com/analytics/web/)
-- Support Emoji
+## Build Locally
 
-## Installation:
+To build locally, simply clone the repository and follow this [guide from GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll).
 
-Fork the ``master`` branch and follow the [Jekyll Installation Documentation](https://jekyllrb.com/docs/installation/).
+## License
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://github.com/jtmullen/cancelledbynetflix/blob/main/LICENSE)
+The theme and site is released under GPLv3. Note that some assets (photos, logos) which may be included in this repo are not included in this license and have a separate license. 
 
 ## Credit
 
 This site is based on the Jekyll theme [Flexible-Jekyll](https://github.com/artemsheludko/flexible-jekyll) by [Artem Sheludko](https://github.com/artemsheludko). 
 
-## License
-
-GNU General Public License v3.0
