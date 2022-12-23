@@ -34,9 +34,10 @@ To build locally, simply clone the repository and follow this [guide from GitHub
 
 ## License
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://github.com/jtmullen/cancelledbynetflix/blob/main/LICENSE)
+
 The theme and site is released under GPLv3. Note that some assets (photos, logos) which may be included in this repo are not included in this license and have a separate license. 
 
 ## Credit
 
-This site is based on the Jekyll theme [Flexible-Jekyll](https://github.com/artemsheludko/flexible-jekyll) by [Artem Sheludko](https://github.com/artemsheludko). 
+This site is built with Jekyll. The design is a modified version of the  [Flexible-Jekyll](https://github.com/artemsheludko/flexible-jekyll) theme by [Artem Sheludko](https://github.com/artemsheludko). 
 
