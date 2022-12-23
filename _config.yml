@@ -1,0 +1,24 @@
+title: Cancelled by Netflix
+description: >
+  The shows Netflix decided to cancel even when beloved by many. 
+permalink: ':title/'
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://http://127.0.0.1:4000/" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Author Settings
+author: Cancelled by # add your name
+image: x-circle.svg # add your photo
+about: Remembering the shows that Netflix let go, but fan will always hold dear
+social-github: jtmullen/cancelledbynetflix # add your Github handle
+
+# Build Settings
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+
+paginate: 1000
+paginate_path: "/page/:num"
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
