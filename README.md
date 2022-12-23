@@ -10,7 +10,7 @@ To contribute to this project please create a fork, make your changes on a branc
 
 ### Adding a Cancelled Show
 
-To add a cancelled show you will need to create a new markdown file in the _shows/[year] folder. Where year is the year the show was cancelled. Please name the file as the name of the show with spaces replaced with dashes. 
+To add a cancelled show you will need to create a new markdown file in the _shows/[year] folder. Where year is the year the show was cancelled. Please name the file as the name of the show with spaces replaced with dashes, leave out any special characters.
 
 Only the "[front-matter](https://jekyllrb.com/docs/front-matter/)" YAML is used, no other content of the markdown file is used. All fields are required, below is an example front-matter:
 
