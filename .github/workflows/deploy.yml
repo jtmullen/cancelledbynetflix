@@ -1,0 +1,23 @@
+name: Build & Deply to GH Pages
+
+on:
+  push:
+    branches:
+      - main
+      
+jobs:
+  build_deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/cache@v2
+        with: 
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
+          
+      - uses: jeffreytse/jekyll-deploy-action@v0.4.0
+        with: 
+          token: ${{ secrets.GH_PAGES_KEY }}
+          jekyll_cfg: '_deploy_cfg.yml'
