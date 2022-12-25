@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/cache@v2
+      - uses: actions/cache@v3
         with: 
           path: vendor/bundle
           key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
@@ -20,4 +20,4 @@ jobs:
       - uses: jeffreytse/jekyll-deploy-action@v0.4.0
         with: 
           token: ${{ secrets.GH_PAGES_KEY }}
-          jekyll_cfg: '_deploy_cfg.yml'
+          jekyll_cfg: '_deploy_config.yml'
