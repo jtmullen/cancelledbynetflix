@@ -2,10 +2,10 @@ title: Cancelled by Netflix
 description: >
   The shows Netflix decided to cancel - even those beloved by many. 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://127.0.0.1:4000/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://jtmullen.github.io/cancelledbynetflix" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Author Settings
-author: Cancelled by Netflix# add your name
+author: Cancelled by Netflix # add your name
 image: x-circle.svg # add your photo
 about: Remembering the *count* shows that Netflix let go, but fans won't forget
 social-github: jtmullen/cancelledbynetflix # add your Github handle
@@ -20,4 +20,4 @@ plugins:
 collections:
   - shows
 
-exclude: ["_deploy_config.yml"]
+exclude: ["_config.yml"]
