@@ -15,4 +15,13 @@ function searchShows(){
 	}
 }
 
+function blurOnEnter(keyboardEvent){
+	key = keyboardEvent.keyCode;
+	if(key === 13 ){
+		console.log("Blurred");
+		source.blur();
+	}
+}
+
 source.addEventListener('input', searchShows);
+source.addEventListener('keyup', blurOnEnter);
