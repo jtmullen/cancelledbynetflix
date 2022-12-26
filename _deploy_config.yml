@@ -7,7 +7,7 @@ url: "https://jtmullen.github.io" # the base hostname & protocol for your site, 
 # Author Settings
 author: Cancelled by Netflix # add your name
 image: x-circle.svg # add your photo
-about: Remembering the *count* shows that Netflix let go, but fans won't forget
+about: Remembering the <span style="color:red;"><b>*count*</b></span> shows that Netflix let go, but fans won't forget (most of) them
 social-github: jtmullen/cancelledbynetflix # add your Github handle
 
 # Build Settings
