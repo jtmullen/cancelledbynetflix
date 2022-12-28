@@ -1,5 +1,5 @@
 ---
-title: Q-Force
+title: Pretty Smart
 date: 2022-04-01
 description: The sitcom was not well recieved and cancelled after its first season.
 seasons: 1
