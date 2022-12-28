@@ -7,6 +7,6 @@ episodes: 40
 netflix-url: https://www.netflix.com/title/80239931
 source-name: Wikipedia  
 source-url: https://en.wikipedia.org/wiki/Patriot_Act_with_Hasan_Minhaj
-img: hasan-minhaj.jpg
+img: public-domain/hasan-minhaj.jpg
 ---
 

@@ -7,6 +7,6 @@ episodes: 10
 netflix-url: https://www.netflix.com/title/80210361
 source-name: Wikipedia  
 source-url: https://en.wikipedia.org/wiki/Chambers_(TV_series)
-img: Chambers_logo.png
+img: non-copyright/Chambers_logo.png
 ---
 
