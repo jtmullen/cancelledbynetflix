@@ -14,20 +14,13 @@ jobs:
         with: 
           ref: gh-pages
           
-      - name: Restore Cache
-        uses: actions/cache@v3
-        with: 
-          path: .lycheecache
-          key: cache-lychee-${{ github.sha }}
-          restore-keys: cache-lychee
-          
-      - name: Check Link
+      - name: Check Links
         id: link-check
         uses: lycheeverse/lychee-action@v1.5.4
         env: 
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
         with:
-          args: --cache --no-progress --max-cache-age 3d --retry-wait-time 3 --max-retries 5 './**/*.md' './**/*.html'
+          args: --no-progress  --retry-wait-time 2 -a 403 --max-retries 10 './**/*.md' './**/*.html'
 
       - name: Create Issue If Broken Link
         if: env.lychee_exit_code != 0
