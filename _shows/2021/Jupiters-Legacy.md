@@ -6,6 +6,7 @@ seasons: 1
 episodes: 8
 netflix-url: https://www.netflix.com/title/80244953
 source-name: Wikipedia  
-source-url: https://en.wikipedia.org/wiki/Grand_Army_(TV_series)
+source-url: https://en.wikipedia.org/wiki/Jupiter%27s_Legacy_(TV_series)
+img: non-copyright/Jupiters_Legacy_Title_Text.png
 ---
 

@@ -7,5 +7,6 @@ episodes: 13
 netflix-url: https://www.netflix.com/title/80220679
 source-name: Wikipedia  
 source-url: https://en.wikipedia.org/wiki/Fate:_The_Winx_Saga
+img: non-copyright/Fate_Winx_Saga_logo.png
 ---
 

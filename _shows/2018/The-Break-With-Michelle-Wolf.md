@@ -7,5 +7,6 @@ episodes: 10
 netflix-url: https://www.netflix.com/title/80239459
 source-name: Wikipedia  
 source-url: https://en.wikipedia.org/wiki/The_Break_with_Michelle_Wolf
+img: copyright/Michelle_Wolf_logo.png
 ---
 
