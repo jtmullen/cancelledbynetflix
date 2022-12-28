@@ -4,6 +4,11 @@ on:
   push:
     branches:
       - main
+    paths:
+      - '**.html'
+      - '**.md'
+      - 'assets/**/*'
+      - 'Gemfile*'
       
 jobs:
   build_deploy:
