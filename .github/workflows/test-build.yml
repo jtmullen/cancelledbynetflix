@@ -1,0 +1,17 @@
+name: Test Build PR
+
+on: 
+  pull_request:
+    branches:
+      - 'main'
+      
+jobs: 
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses:  jtmullen/jekyll-deploy-action@build-no-deploy 
+        with:
+          token: ${{ secrets.GH_PAGES_KEY }}
+          jekyll_cfg: '_deploy_config.yml'
+          skip_deploy: true
