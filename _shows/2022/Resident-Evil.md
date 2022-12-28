@@ -7,5 +7,6 @@ episodes: 8
 netflix-url: https://www.netflix.com/title/80996532
 source-name: Wikipedia  
 source-url: https://en.wikipedia.org/wiki/Resident_Evil_(TV_series)
+img: copyright/Resident_Evil_logo.png
 ---
 

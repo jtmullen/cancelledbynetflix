@@ -7,5 +7,6 @@ episodes: 10
 netflix-url: https://www.netflix.com/title/81140282
 source-name: Wikipedia  
 source-url: https://en.wikipedia.org/wiki/Partner_Track
+img: copyright/Partner_Track_Title_Card.png
 ---
 

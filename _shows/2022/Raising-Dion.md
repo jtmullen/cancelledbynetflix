@@ -7,5 +7,6 @@ episodes: 17
 netflix-url: https://www.netflix.com/title/81239671
 source-name: Variety  
 source-url: https://variety.com/2022/tv/news/raising-dion-canceled-netflix-1235241627/
+img: copyright/Raising_Dion_Title_Card.jpg
 ---
  
