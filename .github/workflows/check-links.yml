@@ -27,7 +27,7 @@ jobs:
         env: 
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
         with:
-          args: "--cache --no-progress --max-cache-age 3d --retry-wait-time 3 --max-retries 5"
+          args: --cache --no-progress --max-cache-age 3d --retry-wait-time 3 --max-retries 5 './**/*.md' './**/*.html'
 
       - name: Create Issue If Broken Link
         if: env.lychee_exit_code != 0
