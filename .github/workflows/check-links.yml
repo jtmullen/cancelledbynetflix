@@ -28,3 +28,9 @@ jobs:
         with: 
           title: "Broken Link Report"
           content-filepath: ./lychee/out.md
+       
+      - name: Fail on Link Check Failure
+        run: |
+            if [ $lychee_exit_code -ne 0]; then
+              exit 1
+            fi
