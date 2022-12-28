@@ -31,6 +31,6 @@ jobs:
        
       - name: Fail on Link Check Failure
         run: |
-            if [ $lychee_exit_code -ne 0]; then
+            if [ $lychee_exit_code -ne 0 ]; then 
               exit 1
             fi
