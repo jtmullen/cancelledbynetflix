@@ -7,6 +7,6 @@ episodes: 30
 netflix-url: https://www.netflix.com/title/80095815
 source-name: Wikipedia  
 source-url: https://en.wikipedia.org/wiki/Santa_Clarita_Diet
-img: logo/Santa_Clarita_Diet.png
+img: copyright/Santa_Clarita_Diet.png
 ---
 

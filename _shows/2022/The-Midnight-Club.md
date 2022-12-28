@@ -7,6 +7,6 @@ episodes: 10
 netflix-url: https://www.netflix.com/title/81112336
 source-name: Wikipedia  
 source-url: https://en.wikipedia.org/wiki/The_Midnight_Club
-img: logo/The_Midnight_Club.png
+img: copyright/The_Midnight_Club.png
 ---
 
