@@ -1,8 +1,8 @@
 title: Cancelled by Netflix
 description: >
   The shows Netflix decided to cancel - even those beloved by many. 
-baseurl: "/cancelledbynetflix" # the subpath of your site, e.g. /blog
-url: "https://jtmullen.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://www.cancelledbynetflix.net" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Author Settings
 author: Cancelled by Netflix # add your name
