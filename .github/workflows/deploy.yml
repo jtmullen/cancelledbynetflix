@@ -9,6 +9,7 @@ on:
       - '**.md'
       - 'assets/**/*'
       - 'Gemfile*'
+      - '_deploy_config.yml'
       
 jobs:
   build_deploy:
