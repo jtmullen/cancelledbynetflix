@@ -2,9 +2,11 @@
 
 A record of all the shows Cancelled by Netflix before they ran their course.
 
-[![Check Links](https://github.com/jtmullen/cancelledbynetflix/actions/workflows/check-links.yml/badge.svg)](https://github.com/jtmullen/cancelledbynetflix/actions/workflows/check-links.yml) [![Build & Deploy](https://github.com/jtmullen/cancelledbynetflix/actions/workflows/deploy.yml/badge.svg)](https://github.com/jtmullen/cancelledbynetflix/actions/workflows/deploy.yml)
+[![Check Links](https://github.com/jtmullen/cancelledbynetflix/actions/workflows/check-links.yml/badge.svg?event=schedule)](https://github.com/jtmullen/cancelledbynetflix/actions/workflows/check-links.yml) [![Build & Deploy](https://github.com/jtmullen/cancelledbynetflix/actions/workflows/deploy.yml/badge.svg)](https://github.com/jtmullen/cancelledbynetflix/actions/workflows/deploy.yml)
 
 ## Contributing
+
+### Report a Cancelled Show
 
 If you are not familiar with git you can open an issue to report a missing cancelled show. 
 
@@ -27,8 +29,14 @@ episodes: 18 # Total Number of Episodes
 netflix-url: https://www.netflix.com/title/80198208  # Link to the Show On Netflix
 source-name: Wikipedia  # Source that verifies the cancellation
 source-url: https://en.wikipedia.org/wiki/Gentefied  # Link to Source
+img: folder/img.png # Image Link - relative to assets/img
 ---
 ```
+
+Notes: 
+- `Sources`: I tend to default to Wikipedia unless the wiki page doesn't list the info needed about cancellation or there is something else notable (such as a quote) to source from somewhere else. 
+- `Seasons/Episodes`: This should be at the time of cancellation, for some shows that get picked up elsewhere this won't be the shows total seasons/episodes.
+- `Images`: Please see the pinned issue
 
 ## Build Locally
 
