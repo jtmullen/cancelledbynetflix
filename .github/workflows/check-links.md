@@ -1,0 +1,27 @@
+name: Check Links
+
+on:
+  workflow_dispatch
+  schedule:
+	"10 10 * * *"
+	
+jobs:
+  linkCheck:
+    runs-on: ubuntu-latest
+	steps:
+	  - name: Checkout GH Pages Branch
+	    uses: actions/checkout@v3
+	    with: 
+		  ref: gh-pages
+	  - name: Check Link
+	    id: link-check
+		uses: lycheeverse/lychee-action@v1.5.4
+		env: 
+		  GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+		  
+      - name: Create Issue If Broken Link
+	    if: env.lychee_exit_code != 0
+		uses: peter-evans/create-issue-from-file@v4
+		with: 
+			title: "Broken Link Report"
+			content-filepath: ./lychee/out.md
