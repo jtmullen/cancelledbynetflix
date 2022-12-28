@@ -20,4 +20,4 @@ plugins:
 collections:
   - shows
 
-exclude: ["_deploy_config.yml"]
+exclude: ["_deploy_config.yml", "**/README.md"]
