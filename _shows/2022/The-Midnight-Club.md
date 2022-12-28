@@ -6,6 +6,7 @@ seasons: 1
 episodes: 10
 netflix-url: https://www.netflix.com/title/81112336
 source-name: Wikipedia  
-source-url: https://en.wikipedia.org/wiki/The_Midnight_Club#Reception
+source-url: https://en.wikipedia.org/wiki/The_Midnight_Club
+img: The_Midnight_Club.png
 ---
 
