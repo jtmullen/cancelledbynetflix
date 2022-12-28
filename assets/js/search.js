@@ -7,7 +7,8 @@ function searchShows(){
 
 	for(i = 0; i < showdivs.length; i++){
 	  title = showdivs[i].getElementsByClassName("post-title")[0].textContent.toLowerCase();
-	  if(title.includes(searchterm)){
+	  year = showdivs[i].getElementsByClassName("post-date")[0].textContent.split(" ")[2]
+	  if(title.includes(searchterm) || year.includes(searchterm)){
 		showdivs[i].style.display = '';
 	  }else{
 		showdivs[i].style.display = 'none';
