@@ -1,4 +1,4 @@
-name: Build & Deply to GH Pages
+name: Build & Deploy to GH Pages
 
 on:
   push:
