@@ -2,6 +2,8 @@
 
 A record of all the shows Cancelled by Netflix before they ran their course.
 
+[![Check Links](https://github.com/jtmullen/cancelledbynetflix/actions/workflows/check-links.yml/badge.svg)](https://github.com/jtmullen/cancelledbynetflix/actions/workflows/check-links.yml) [![Build & Deploy](https://github.com/jtmullen/cancelledbynetflix/actions/workflows/deploy.yml/badge.svg)](https://github.com/jtmullen/cancelledbynetflix/actions/workflows/deploy.yml)
+
 ## Contributing
 
 If you are not familiar with git you can open an issue to report a missing cancelled show. 
