@@ -11,7 +11,7 @@ layout: main
   {% endif %}
   <div class="post-content">
     <h2 class="post-title"><a href="{{post.netflix-url}}">{{post.title}}</a></h2>
-    <p>{{ post.description | markdownify | truncatewords: 30 }} &#x2022; <a style="font-weight:bold;text-decoration: none;" href="{{ post.source-url }}">{{ post.source-name }}</a></p>
+    <p>{{ post.description | markdownify | truncatewords: 32 }} &#x2022; <a style="font-weight:bold;text-decoration: none;" href="{{ post.source-url }}">{{ post.source-name }}</a></p>
     <span class="post-date">Cancelled {{post.date | date: '%b %Y'}}&nbsp;&nbsp;&nbsp;—&nbsp;</span>
     <span class="post-words">{{ post.seasons }} seasons / {{ post.episodes }} episodes</span>
   </div>

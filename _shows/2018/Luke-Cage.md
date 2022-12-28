@@ -1,7 +1,7 @@
 ---
 title: Marvel's Luke Cage
 date: 2018-06-22
-description: This Emmy winning superhero show based on the Marvel Comics character Luke Cage was cancelled after two series due to "create difference" during the development of season three. 
+description: This Emmy winning superhero show based on the Marvel Comics character Luke Cage was cancelled after two series due to "creative difference" during the development of season three. 
 seasons: 2
 episodes: 26
 netflix-url: https://www.netflix.com/title/80002537
