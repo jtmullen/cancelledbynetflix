@@ -49,7 +49,9 @@ To build locally, simply clone the repository and follow this [guide from GitHub
 ## License
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://github.com/jtmullen/cancelledbynetflix/blob/main/LICENSE)
 
-The theme and site is released under GPLv3. Note that some assets (photos, logos) which may be included in this repo are not included in this license and have a separate license. See the [readme](https://github.com/jtmullen/cancelledbynetflix/blob/main/assets/img/copyright/README.md) in the assets/img folder and its subfolders. 
+The Jekyll theme and related site files are released under GPLv3. 
+
+Some assets (photos, logos) which may be included in this repo are not included in this license and have a separate license which is specified in their folders. See the [readme](https://github.com/jtmullen/cancelledbynetflix/blob/main/assets/img/copyright/README.md) in the assets/img folder and its subfolders. 
 
 ## Credit
 
