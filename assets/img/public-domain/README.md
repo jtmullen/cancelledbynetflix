@@ -1,5 +1,9 @@
-# Non-Copyrightable Images
+# Public Domain Images
 
-Images in this folder are non-copyrightable. Typically wordmarks in standard font or simple geometric shapes. Note that these logos are still covered by other legal protection such as trademark law. 
+Images in this folder are public domain.
 
-These images should be the minimum size needed for this site. Specifically, the shortest dimension should be no more than 250px. 
+Please attribute the images below. 
+
+# Attribution
+
+* `hasan_minhaj.jpg` By DoD News photo by EJ Hersom - https://www.dvidshub.net/image/2573392/obamas-and-bidens-open-uso-show#.Vy-qefmLTIU, Public Domain, https://commons.wikimedia.org/w/index.php?curid=48649823
