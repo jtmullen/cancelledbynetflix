@@ -13,11 +13,21 @@ jobs:
         uses: actions/checkout@v3
         with: 
           ref: gh-pages
+          
+      - name: Restore Cache
+        uses: actions/cache@v3
+        with: 
+          path: .lycheecache
+          key: cache-lychee-${{ github.sha }}
+          restore-keys: cache-lychee
+          
       - name: Check Link
         id: link-check
         uses: lycheeverse/lychee-action@v1.5.4
         env: 
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+        with:
+          args: "--cache --no-progress --max-cache-age 3d --retry-wait-time 3 --max-retries 5"
 
       - name: Create Issue If Broken Link
         if: env.lychee_exit_code != 0
