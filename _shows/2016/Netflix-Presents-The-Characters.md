@@ -1,5 +1,5 @@
 ---
-title: Netflix Presents: The Characters
+title: "Netflix Presents: The Characters"
 date: 2016-04-01
 description: The comedy sketch series featured a different up-and-coming comedian on each episode.  
 seasons: 1
