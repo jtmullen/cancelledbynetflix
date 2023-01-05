@@ -6,6 +6,7 @@ Additionally, copyright attribution must be added below.
 
 ## Copyright Attributions
 
+* `1899NetflixPosterEnglish.jpg` By https://gallery.spoilertv.com/image/7yhLu, Fair use, https://en.wikipedia.org/w/index.php?curid=72282345
 * `Michelle_Wold_logo.png` By Cats in Pants, Irony Point, and/or Netflix - https://www.netflix.com/watch/80239752?trackId=14277283&amp;tctx=0%2C0%2Cc8bb7e3d-28a4-4721-a051-237b5e2e5737-39682267%2C%2C, Fair use, https://en.wikipedia.org/w/index.php?curid=57530794
 * `Mr_Iglesias_Title_Card.jpg` By Hench in the Trench Productions, Fluffy Shop Studios - https://www.netflix.com/title/80209013, Fair use, https://en.wikipedia.org/w/index.php?curid=61095068
 * `Partner_Track_Title_Card.png` By Screenshot of the title card from an episode of the streaming television series., Fair use, https://en.wikipedia.org/w/index.php?curid=71616708
